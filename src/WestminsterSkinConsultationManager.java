@@ -23,7 +23,7 @@ public class    WestminsterSkinConsultationManager implements SkinConsultationMa
         String specialisation = scn.nextLine();
         LocalDate date = fixErrorDate();//fixErrorDate() is creat the other method
         int mobileNo = fixErrorMobileNumber();
-        Doctor dr = new Doctor(name,surname,date,medicalNo,mobileNo,specialisation);
+        Doctor dr = new Doctor(name,surname,date,mobileNo,medicalNo,specialisation);
         return dr;
     }
     public int fixErrorMedicalNo(){
